@@ -148,7 +148,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         
         if visNode == nil {
             let visPlane = SCNPlane(width: 0.3, height: 0.3)
-            visPlane.firstMaterial?.diffuse.contents = #imageLiteral(resourceName: "trackerDuck")
+            visPlane.firstMaterial?.diffuse.contents = #imageLiteral(resourceName: "tracker")
             
             visNode = SCNNode(geometry: visPlane)
             visNode.eulerAngles.x = .pi * -0.5
